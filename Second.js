@@ -6,6 +6,7 @@ const pass = prompt("Enter password:");
 
 if (user !== username || pass !== password) {
     alert("❌ Maybe the username or password is wrong!");
-    window.location.href = "second.html"; 
+    window.location.href = "index.html"; 
 }
+
 
